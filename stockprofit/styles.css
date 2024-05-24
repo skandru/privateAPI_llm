@@ -1,0 +1,7 @@
+.typing-effect {
+    border-right: .1em solid #666;
+    white-space: pre-wrap; /* Ensure text wraps within the text area */
+    overflow: hidden;
+    height: auto; /* Adjust height automatically based on content */
+}
+
