@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 from dotenv import load_dotenv
 import os
 import openai
-from fastapi.middleware.cors import CORSMiddleware
+
 
 class StockProfitLitAPI(ls.LitAPI):
     def setup(self, device):
